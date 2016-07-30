@@ -6,6 +6,6 @@ So far the compression stack plan is:
 
 * Buller-Wheeler Transform
 
-* Run Length Encoding
+* Move to Front Algorithm
 
 * Entropy Based Coding
