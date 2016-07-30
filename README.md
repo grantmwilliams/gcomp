@@ -8,4 +8,6 @@ So far the compression stack plan is:
 
 * Move to Front Algorithm
 
+* Run Length Encoding
+
 * Entropy Based Coding
