@@ -4,7 +4,7 @@ So far the compression stack plan is:
 
 * Run Length Encoding
 
-* Buller-Wheeler Transform
+* Burrows-Wheeler Transform
 
 * Move to Front Algorithm
 
