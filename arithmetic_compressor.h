@@ -7,8 +7,8 @@
 
 #include <stdexcept>
 
-#include "byteio.h"
 #include "bitio.h"
+#include "byteio.h"
 
 #ifdef LOG
 #include <iomanip>
