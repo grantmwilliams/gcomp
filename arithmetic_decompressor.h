@@ -57,7 +57,7 @@ public:
         for (;;)
         {
             CODE_VALUE range = high - low + 1;
-            CODE_VALUE scaled_value = ((value - low + 1) * m_model.getCount() - 1) / range;
+            CODE_VALUE scaled_value =  ((value - low + 1) * m_model.getCount() - 1 ) / range;
 
             int c;
             prob p = m_model.getChar(scaled_value, c);
@@ -99,7 +99,7 @@ public:
                     low -= MODEL::ONE_HALF;
                     high -= MODEL::ONE_HALF;
                 }
-                else if ( low >= MODEL::ONE_FOURTH && high << MODEL::THREE_FOURTHS)
+                else if ( low >= MODEL::ONE_FOURTH && high < MODEL::THREE_FOURTHS)
                 {
                     value -= MODEL::ONE_FOURTH;
                     low -= MODEL::ONE_FOURTH;
