@@ -13,4 +13,4 @@ So far the compression stack plan is:
 * Arithmetic Coding
 
 
-Currently only the arithmetic coding is working. I plan on updating it to use markov chains and change the encoding to be adaptive. Currently the arithmetic coding is geting a 55% compression rate on the test file. This is significantly worse than using the built in compression on the file system.
+Currently only the arithmetic coding is working. I plan on updating it to use markov chains and change the encoding to be predicitive. Currently the arithmetic coding is geting a 55% compression rate on the test file. This is significantly worse than using the built in compression on the file system.
