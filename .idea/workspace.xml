@@ -12,14 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b252380e-2731-45e8-ad81-df7e6119e919" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compress.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/decompress.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Debug/gcomp" afterPath="$PROJECT_DIR$/Debug/gcomp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gcomp.iml" afterPath="$PROJECT_DIR$/.idea/gcomp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arithmetic_compressor.h" afterPath="$PROJECT_DIR$/arithmetic_compressor.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/byteio.h" afterPath="$PROJECT_DIR$/byteio.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model.h" afterPath="$PROJECT_DIR$/model.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_metrics.h" afterPath="$PROJECT_DIR$/model_metrics.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility.h" afterPath="$PROJECT_DIR$/utility.h" />
     </list>
     <ignored path="gcomp.iws" />
@@ -44,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#139#158#0" expanded="true" />
               </folding>
@@ -115,11 +112,11 @@
       <file leaf-file-name="utility.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utility.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+            <state relative-caret-position="292">
+              <caret line="121" column="52" selection-start-line="121" selection-start-column="52" selection-end-line="121" selection-end-column="52" />
               <folding>
                 <element signature="e#97#116#0" expanded="true" />
-                <element signature="e#617#629#0" expanded="true" />
+                <element signature="e#726#738#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -441,7 +438,7 @@
       <workItem from="1471465365758" duration="2418000" />
       <workItem from="1471479405084" duration="903000" />
       <workItem from="1471486400729" duration="1132000" />
-      <workItem from="1471905029727" duration="8702000" />
+      <workItem from="1471905029727" duration="10400000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md&#10;&#10;spelled &quot;Burrows' correctly">
       <created>1471063048354</created>
@@ -471,17 +468,24 @@
       <option name="project" value="LOCAL" />
       <updated>1471470070566</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Compressor and Decompressor both working and the test program now works as well.">
+      <created>1471926811722</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1471926811722</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35520000" />
+    <option name="totallyTimeSpent" value="37218000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="826" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="826" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25069445" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25069445" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31836197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -518,7 +522,8 @@
     <MESSAGE value="added decompressor (but current test implementaiton does NOT work)." />
     <MESSAGE value="removed the python testing directory for now" />
     <MESSAGE value="fixed decompression issue. both compressor and decompressor are now working fine." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed decompression issue. both compressor and decompressor are now working fine." />
+    <MESSAGE value="Compressor and Decompressor both working and the test program now works as well." />
+    <option name="LAST_COMMIT_MESSAGE" value="Compressor and Decompressor both working and the test program now works as well." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -564,7 +569,7 @@
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#97#116#0" expanded="true" />
-            <element signature="e#617#629#0" expanded="true" />
+            <element signature="e#726#738#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -729,7 +734,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#97#116#0" expanded="true" />
-            <element signature="e#617#629#0" expanded="true" />
+            <element signature="e#726#738#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -914,7 +919,7 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#139#158#0" expanded="true" />
           </folding>
@@ -951,11 +956,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utility.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="292">
+          <caret line="121" column="52" selection-start-line="121" selection-start-column="52" selection-end-line="121" selection-end-column="52" />
           <folding>
             <element signature="e#97#116#0" expanded="true" />
-            <element signature="e#617#629#0" expanded="true" />
+            <element signature="e#726#738#0" expanded="true" />
           </folding>
         </state>
       </provider>

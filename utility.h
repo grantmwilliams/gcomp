@@ -27,8 +27,14 @@ namespace utility
 
     std::string green(const std::string& phrase)
     {
-        return "\33[0;32m" + phrase + "\33[0m";
+        return "\33[1;32m" + phrase + "\33[0m";
     }
+
+    std::string red(const std::string& phrase)
+    {
+        return "\33[1;31m" + phrase + "\33[0m";
+    }
+
 
     template<typename T>
     int validate (const std::string& input_file,
@@ -75,7 +81,8 @@ namespace utility
         {
             std::cout << "Input length: " << in_length << "\n"
                       << "Output length: " << out_length << "\n"
-                      << "Compressed length: " << compressed_length << "\n";
+                      << "Compressed length: " << compressed_length << "\n"
+                      << "Compression ratio: " <<  (100 * ((double)compressed_length / (double) in_length)) << "%\n \n";
         }
 
         if (in_length != out_length)
@@ -95,7 +102,7 @@ namespace utility
 
         if (verbose)
         {
-            std::cout << "Compressed to " << bpb << " bits per byte\n";
+            std::cout << "Compressed to " << bpb << " bits per byte\n \n";
         }
 
         int c1, c2;
@@ -112,7 +119,7 @@ namespace utility
 
         if (verbose)
         {
-            std::cout << green("Validated") << "\n";
+            std::cout << green("All test cases passed.") << "\n \n";
 
         }
 

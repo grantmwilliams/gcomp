@@ -24,11 +24,14 @@ int main(int argc, char* argv[])
     try
     {
         // Compress
-        std::cout << "compressing " << argv[1] << "...\n" << std::flush;
+        std::cout << "\ncompressing " << argv[1] << "...\n \n" << std::flush;
         std::ofstream output1("temp.gcomp", std::ofstream::binary);
         std::ifstream input1(argv[1], std::ifstream::binary);
 
         my_model cmodel;
+        std::cout << "\n";
+        cmodel.dump("cmodel", std::clog);
+        std::cout << "\n";
 
         compress(input1, output1, cmodel);
         output1.close();
