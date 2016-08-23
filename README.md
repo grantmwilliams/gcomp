@@ -2,15 +2,12 @@
 
 So far the compression stack plan is:
 
-* Run Length Encoding
-
 * Burrows-Wheeler Transform
 
 * Move to Front Algorithm
 
 * Run Length Encoding
 
-* Arithmetic Coding
+* Adaptive Arithmetic Coding (with predictive modeling)
 
-
-Currently only the arithmetic coding is working. I plan on updating it to use markov chains and change the encoding to be predicitive. Currently the arithmetic coding is geting a 55% compression rate on the test file. This is significantly worse than using the built in compression on the file system.
+Currently I only have the arithmetic coding algorithm working and I'm getting about a 55% compression ratio on text files. Hoping to increase the compression ratio with the transform and better predictive modeling. 
