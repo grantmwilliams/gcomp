@@ -2,17 +2,18 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/decompress.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/model_metrics.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/utility.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/arithmetic_decompressor.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bitio.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/byteio.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/compress.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/model_metrics.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/arithmetic_compressor.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/model.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bwt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arithmetic_compressor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mtf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rle.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
