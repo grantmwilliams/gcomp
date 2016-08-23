@@ -52,7 +52,7 @@ struct model : public model_metrics<CODE_VALUE_, CODE_VALUE_BITS_, FREQUENCY_BIT
             cumulative_frequency[i] = i;
         }
         m_bytesProcessed = 0;
-        m_frozen = 0;
+        m_frozen = false;
     }
 
     virtual inline void pacify()

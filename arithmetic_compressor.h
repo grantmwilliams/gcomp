@@ -43,9 +43,11 @@ public:
         int pending_bits = 0;
         CODE_VALUE low = 0;
         CODE_VALUE high = MODEL::MAX_CODE;
+
         for(; ;)
         {
             int c = m_input.getByte();
+
             if (c == -1)
             {
                 c = 256;
@@ -62,7 +64,7 @@ public:
             prob p = m_model.getProbability(c);
             CODE_VALUE range = high - low + 1;
             high = low + (range * p.high / p.count) - 1;
-            low = low + (range *  p.low / p.count);
+            low = low + (range * p.low / p.count);
 #ifdef LOG
             log << "0x" << low << " 0x" << high << "\n";
 #endif

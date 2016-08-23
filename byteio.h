@@ -44,7 +44,7 @@ private:
 // Specialization of output_bytes for FILE *
 
 template<>
-class output_bytes<FILE *>
+class output_bytes<FILE*>
 {
 public:
     output_bytes(FILE* pFile) : m_pFile(pFile){}

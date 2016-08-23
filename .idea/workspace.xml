@@ -12,8 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b252380e-2731-45e8-ad81-df7e6119e919" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/iotesting.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Debug/gcomp" afterPath="$PROJECT_DIR$/Debug/gcomp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gcomp.iml" afterPath="$PROJECT_DIR$/.idea/gcomp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arithmetic_compressor.h" afterPath="$PROJECT_DIR$/arithmetic_compressor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/byteio.h" afterPath="$PROJECT_DIR$/byteio.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model.h" afterPath="$PROJECT_DIR$/model.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_metrics.h" afterPath="$PROJECT_DIR$/model_metrics.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility.h" afterPath="$PROJECT_DIR$/utility.h" />
     </list>
     <ignored path="gcomp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,118 +40,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#139#158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arithmetic_decompressor.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/arithmetic_decompressor.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-              <folding>
-                <element signature="e#129#147#0" expanded="true" />
-                <element signature="e#180#218#0" expanded="true" />
-                <element signature="e#614#663#0" expanded="true" />
-                <element signature="e#946#1009#0" expanded="true" />
-                <element signature="e#1647#1888#0" expanded="true" />
-                <element signature="e#2029#2073#0" expanded="true" />
-                <element signature="e#3052#3174#0" expanded="true" />
-                <element signature="e#3424#3473#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arithmetic_compressor.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arithmetic_compressor.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2590">
-              <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-              <folding>
-                <element signature="e#103#123#0" expanded="true" />
-                <element signature="e#176#214#0" expanded="true" />
-                <element signature="e#468#517#0" expanded="true" />
-                <element signature="e#853#926#0" expanded="true" />
-                <element signature="e#1202#1442#0" expanded="true" />
-                <element signature="e#1677#1721#0" expanded="true" />
-                <element signature="e#3972#3984#0" expanded="true" />
-                <element signature="e#4660#4709#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model_metrics.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model_metrics.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-              <folding>
-                <element signature="e#109#128#0" expanded="true" />
-                <element signature="e#196#260#0" expanded="true" />
-                <element signature="e#1361#1395#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="e#93#112#0" expanded="true" />
-                <element signature="e#171#385#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="byteio.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/byteio.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
-              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-              <folding>
-                <element signature="e#95#117#0" expanded="true" />
-                <element signature="e#258#294#0" expanded="true" />
-                <element signature="e#651#663#0" expanded="true" />
-                <element signature="e#981#983#0" expanded="true" />
-                <element signature="e#1303#1339#0" expanded="true" />
-                <element signature="e#1741#1753#0" expanded="true" />
-                <element signature="e#2066#2068#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utility.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utility.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="e#97#116#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,12 +55,71 @@
       <file leaf-file-name="bitio.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitio.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="14">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="byteio.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/byteio.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1540">
+              <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arithmetic_decompressor.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arithmetic_decompressor.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-97">
+              <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
               <folding>
-                <element signature="e#93#113#0" expanded="true" />
-                <element signature="e#143#160#0" expanded="true" />
-                <element signature="e#770#786#0" expanded="true" />
+                <element signature="e#129#147#0" expanded="true" />
+                <element signature="e#614#663#0" expanded="true" />
+                <element signature="e#1649#1890#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arithmetic_compressor.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arithmetic_compressor.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+              <folding>
+                <element signature="e#103#123#0" expanded="true" />
+                <element signature="e#1678#1722#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-545">
+              <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+              <folding>
+                <element signature="e#93#112#0" expanded="true" />
+                <element signature="e#171#385#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utility.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utility.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+              <folding>
+                <element signature="e#97#116#0" expanded="true" />
+                <element signature="e#617#629#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,13 +150,17 @@
         <option value="$PROJECT_DIR$/compressor.h" />
         <option value="$PROJECT_DIR$/testing/iotesting.py" />
         <option value="$PROJECT_DIR$/testing/model.h" />
-        <option value="$PROJECT_DIR$/model_metrics.h" />
-        <option value="$PROJECT_DIR$/byteio.h" />
-        <option value="$PROJECT_DIR$/model.h" />
-        <option value="$PROJECT_DIR$/utility.h" />
-        <option value="$PROJECT_DIR$/arithmetic_compressor.h" />
         <option value="$PROJECT_DIR$/arithmetic_decompressor.h" />
+        <option value="$PROJECT_DIR$/arithmetic_compressor.h" />
+        <option value="$PROJECT_DIR$/byteio.h" />
+        <option value="$PROJECT_DIR$/model_metrics.h" />
+        <option value="$PROJECT_DIR$/model.h" />
+        <option value="$PROJECT_DIR$/compress.h" />
+        <option value="$PROJECT_DIR$/compress.cpp" />
+        <option value="$PROJECT_DIR$/decompress.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/utility.h" />
       </list>
     </option>
   </component>
@@ -272,8 +237,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ClionProjects/truth_table_eval" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.C/C++" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -473,7 +438,10 @@
       <workItem from="1471065138366" duration="350000" />
       <workItem from="1471382751420" duration="4066000" />
       <workItem from="1471407509206" duration="1297000" />
-      <workItem from="1471465365758" duration="180000" />
+      <workItem from="1471465365758" duration="2418000" />
+      <workItem from="1471479405084" duration="903000" />
+      <workItem from="1471486400729" duration="1132000" />
+      <workItem from="1471905029727" duration="8702000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md&#10;&#10;spelled &quot;Burrows' correctly">
       <created>1471063048354</created>
@@ -489,11 +457,25 @@
       <option name="project" value="LOCAL" />
       <updated>1471389533419</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="removed the python testing directory for now">
+      <created>1471469765807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1471469765807</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed decompression issue. both compressor and decompressor are now working fine.">
+      <created>1471470070566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1471470070566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22545000" />
+    <option name="totallyTimeSpent" value="35520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="6" />
@@ -501,21 +483,21 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25069445" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32628798" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31836197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.235474" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32628798" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2324967" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36858475" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -534,13 +516,67 @@
     <MESSAGE value="bit/byte I/O working&#10;&#10;added working arithmetic compressor&#10; &#10; added modeling metrics to help compressor&#10; &#10; started utility functions for general use" />
     <MESSAGE value="Update README.md&#10;&#10;spelled &quot;Burrows' correctly" />
     <MESSAGE value="added decompressor (but current test implementaiton does NOT work)." />
-    <option name="LAST_COMMIT_MESSAGE" value="added decompressor (but current test implementaiton does NOT work)." />
+    <MESSAGE value="removed the python testing directory for now" />
+    <MESSAGE value="fixed decompression issue. both compressor and decompressor are now working fine." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed decompression issue. both compressor and decompressor are now working fine." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/model_metrics.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="e#196#260#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#93#112#0" expanded="true" />
+            <element signature="e#171#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/byteio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <element signature="e#258#294#0" expanded="false" />
+            <element signature="e#981#983#0" expanded="false" />
+            <element signature="e#1302#1338#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#97#116#0" expanded="true" />
+            <element signature="e#617#629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -608,9 +644,7 @@
         <state relative-caret-position="182">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
-            <element signature="e#109#128#0" expanded="true" />
-            <element signature="e#196#260#0" expanded="true" />
-            <element signature="e#1361#1395#0" expanded="true" />
+            <element signature="e#196#260#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -631,13 +665,9 @@
         <state relative-caret-position="1610">
           <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
-            <element signature="e#95#117#0" expanded="true" />
-            <element signature="e#258#294#0" expanded="true" />
-            <element signature="e#651#663#0" expanded="true" />
-            <element signature="e#981#983#0" expanded="true" />
-            <element signature="e#1303#1339#0" expanded="true" />
-            <element signature="e#1741#1753#0" expanded="true" />
-            <element signature="e#2066#2068#0" expanded="true" />
+            <element signature="e#258#294#0" expanded="false" />
+            <element signature="e#981#983#0" expanded="false" />
+            <element signature="e#1302#1338#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -665,9 +695,7 @@
         <state relative-caret-position="182">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
-            <element signature="e#109#128#0" expanded="true" />
-            <element signature="e#196#260#0" expanded="true" />
-            <element signature="e#1361#1395#0" expanded="true" />
+            <element signature="e#196#260#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -688,13 +716,9 @@
         <state relative-caret-position="1610">
           <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
-            <element signature="e#95#117#0" expanded="true" />
-            <element signature="e#258#294#0" expanded="true" />
-            <element signature="e#651#663#0" expanded="true" />
-            <element signature="e#981#983#0" expanded="true" />
-            <element signature="e#1303#1339#0" expanded="true" />
-            <element signature="e#1741#1753#0" expanded="true" />
-            <element signature="e#2066#2068#0" expanded="true" />
+            <element signature="e#258#294#0" expanded="false" />
+            <element signature="e#981#983#0" expanded="false" />
+            <element signature="e#1302#1338#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -705,6 +729,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#97#116#0" expanded="true" />
+            <element signature="e#617#629#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -713,11 +738,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#93#113#0" expanded="true" />
-            <element signature="e#143#160#0" expanded="true" />
-            <element signature="e#770#786#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -727,13 +748,7 @@
           <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
           <folding>
             <element signature="e#103#123#0" expanded="true" />
-            <element signature="e#176#214#0" expanded="true" />
-            <element signature="e#468#517#0" expanded="true" />
-            <element signature="e#853#926#0" expanded="true" />
-            <element signature="e#1202#1442#0" expanded="true" />
-            <element signature="e#1677#1721#0" expanded="true" />
-            <element signature="e#3972#3984#0" expanded="true" />
-            <element signature="e#4660#4709#0" expanded="true" />
+            <element signature="e#1678#1722#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -775,83 +790,77 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/binaryIO.h" />
-    <entry file="file://$PROJECT_DIR$/testing/iotesting.py">
+    <entry file="file://$PROJECT_DIR$/testing/iotesting.py" />
+    <entry file="file://$PROJECT_DIR$/testing/model.h" />
+    <entry file="file://$PROJECT_DIR$/Debug/compressed_output.ari" />
+    <entry file="file://$PROJECT_DIR$/Debug/decompressed_output.txt" />
+    <entry file="file://$PROJECT_DIR$/Debug/pride_and_prejudice.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33670">
+          <caret line="2405" column="46" selection-start-line="2405" selection-start-column="46" selection-end-line="2405" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Debug/decompressed_output">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4918">
+          <caret line="2405" column="45" selection-start-line="2405" selection-start-column="45" selection-end-line="2405" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Debug/compressed_output">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/model.h" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/model_metrics.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="-229">
+          <caret line="20" column="86" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
+          <folding>
+            <element signature="e#196#260#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Debug/correct_decompressed_output">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Debug/decompressed_output.txt" />
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/decompress.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#139#158#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arithmetic_decompressor.h">
+    <entry file="file://$PROJECT_DIR$/test_compress_output">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#129#147#0" expanded="true" />
-            <element signature="e#180#218#0" expanded="true" />
-            <element signature="e#614#663#0" expanded="true" />
-            <element signature="e#946#1009#0" expanded="true" />
-            <element signature="e#1647#1888#0" expanded="true" />
-            <element signature="e#2029#2073#0" expanded="true" />
-            <element signature="e#3052#3174#0" expanded="true" />
-            <element signature="e#3424#3473#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arithmetic_compressor.h">
+    <entry file="file://$PROJECT_DIR$/test_decompress_output">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2590">
-          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-          <folding>
-            <element signature="e#103#123#0" expanded="true" />
-            <element signature="e#176#214#0" expanded="true" />
-            <element signature="e#468#517#0" expanded="true" />
-            <element signature="e#853#926#0" expanded="true" />
-            <element signature="e#1202#1442#0" expanded="true" />
-            <element signature="e#1677#1721#0" expanded="true" />
-            <element signature="e#3972#3984#0" expanded="true" />
-            <element signature="e#4660#4709#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_metrics.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-          <folding>
-            <element signature="e#109#128#0" expanded="true" />
-            <element signature="e#196#260#0" expanded="true" />
-            <element signature="e#1361#1395#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="66" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="-545">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
           <folding>
             <element signature="e#93#112#0" expanded="true" />
             <element signature="e#171#385#0" expanded="true" />
@@ -859,40 +868,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/byteio.h">
+    <entry file="file://$PROJECT_DIR$/arithmetic_compressor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="588">
+          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
           <folding>
-            <element signature="e#95#117#0" expanded="true" />
-            <element signature="e#258#294#0" expanded="true" />
-            <element signature="e#651#663#0" expanded="true" />
-            <element signature="e#981#983#0" expanded="true" />
-            <element signature="e#1303#1339#0" expanded="true" />
-            <element signature="e#1741#1753#0" expanded="true" />
-            <element signature="e#2066#2068#0" expanded="true" />
+            <element signature="e#103#123#0" expanded="true" />
+            <element signature="e#1678#1722#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utility.h">
+    <entry file="file://$PROJECT_DIR$/compress.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="196">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8750">
+          <caret line="639" column="0" selection-start-line="639" selection-start-column="0" selection-end-line="639" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ostream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="893" column="0" selection-start-line="893" selection-start-column="0" selection-end-line="893" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#97#116#0" expanded="true" />
+            <element signature="e#139#158#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitio.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="14">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/byteio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arithmetic_decompressor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
           <folding>
-            <element signature="e#93#113#0" expanded="true" />
-            <element signature="e#143#160#0" expanded="true" />
-            <element signature="e#770#786#0" expanded="true" />
+            <element signature="e#129#147#0" expanded="true" />
+            <element signature="e#614#663#0" expanded="true" />
+            <element signature="e#1649#1890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="e#97#116#0" expanded="true" />
+            <element signature="e#617#629#0" expanded="true" />
           </folding>
         </state>
       </provider>
