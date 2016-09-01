@@ -82,7 +82,7 @@ namespace utility
             std::cout << "Input length: " << in_length << "\n"
                       << "Output length: " << out_length << "\n"
                       << "Compressed length: " << compressed_length << "\n"
-                      << "Compression ratio: " <<  (100 * ((double)compressed_length / (double) in_length)) << "%\n \n";
+                      << "Compression ratio: " <<  (((double)in_length / (double) compressed_length)) << "\n \n";
         }
 
         if (in_length != out_length)
