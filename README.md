@@ -10,4 +10,5 @@ So far the compression stack plan is:
 
 * Adaptive Arithmetic Coding (with predictive modeling)
 
-Currently I only have the arithmetic coding algorithm working and I'm getting about a 55% compression ratio on text files. Hoping to increase the compression ratio with the transform and better predictive modeling. 
+Currently getting about 55% compression ratios. The decompressor now works but is also quite slow. 
+
