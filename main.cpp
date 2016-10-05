@@ -60,3 +60,15 @@ int main(int argc, char* argv[])
 
     return 0;
 }
+
+
+/*
+ *
+ * TODO -- Random Number Implementation
+ *
+ * Use a stack and push random numbers to it in groups of n.
+ * If the stack is ever empty then lock the thread and push n random numbers to it.
+ *
+ * This will ensure we have a good random sampling
+ *
+*/

@@ -5,4 +5,6 @@
 #ifndef GCOMP_RLE_H
 #define GCOMP_RLE_H
 
+
+
 #endif //GCOMP_RLE_H

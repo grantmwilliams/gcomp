@@ -95,14 +95,19 @@ public:
 
             for (;;)
             {
+                // E2 Scaling
                 if (high < MODEL::ONE_HALF)
                 {
                     put_bit_plus_pending(0, pending_bits);
                 }
+
+                // E1 Scaling
                 else if (low >= MODEL::ONE_HALF)
                 {
                     put_bit_plus_pending(1, pending_bits);
                 }
+
+                // E3 Scaling
                 else if (low >= MODEL::ONE_FOURTH && high < MODEL::THREE_FOURTHS)
                 {
                     pending_bits++;
